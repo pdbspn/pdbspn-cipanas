@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD BSPN - Toko Daging Sapi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #222; }
+        header { background-color: #333; color: white; padding: 20px; text-align: center; }
+        header img { max-height: 80px; display: block; margin: 0 auto 10px; }
+        header h1 { margin: 0; font-size: 2em; }
+        header p { margin-top: 5px; font-style: italic; font-size: 1.1em; color: #ccc; }
+        .produk, .galeri { padding: 20px; background: white; margin: 20px auto; max-width: 1000px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .produk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .produk-item { background-color: #eee; padding: 15px; border-radius: 10px; }
+        .produk-item h3 { margin: 0 0 10px; }
+        .produk-item p { margin: 5px 0; }
+        .wa-button { background-color: #25d366; color: white; padding: 10px; border: none; border-radius: 5px; text-align: center; display: inline-block; margin-top: 10px; text-decoration: none; }
+        .galeri-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .galeri-grid img { width: 100%; border-radius: 10px; box-shadow: 0 0 5px #999; }
+        footer { background-color: #333; color: white; text-align: center; padding: 15px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<section class="company-profile">
+  <h2>Company Profile</h2>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="profil_slide1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide4.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide5.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide6.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide7.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide8.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide9.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide10.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide11.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide12.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide13.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide14.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide15.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide16.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide17.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide18.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide19.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide20.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide21.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide22.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide23.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide24.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide25.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide26.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide27.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide28.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide29.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide30.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide31.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide32.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide33.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide34.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide35.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide36.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide37.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide38.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide39.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="profil_slide40.jpg" style="width:100%">
+    </div>
+    
+  </div>
+</section>
+
+<style>
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .fade {
+    animation: fade 2s ease-in-out infinite;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+</script>
+
+
+
+
+    <header>
+        <img src="logo-bspn.jpg" alt="Logo PD BSPN">
+        <h1>PD BSPN</h1>
+        <p>Menyediakan Daging Sapi Berkualitas</p>
+    </header>
+
+    <section class="produk">
+        <h2>Daftar Produk</h2>
+        <div class="produk-grid">
+            
+    <div class="produk-item">
+        <h3>Daging Sapi Lokal</h3>
+        <p><strong>Harga:</strong> 140K/Kg</p>
+        <p>Daging Sapi Lokal Berkualitas</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Daging%20Sapi%20Lokal">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Daging Kepala (Tanpa Kulit)</h3>
+        <p><strong>Harga:</strong> 110K/Kg</p>
+        <p>Daging Kepala tanpa kulit cocok untuk semur,cincang dan lainnya.</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Daging%20Kepala%20(Tanpa%20Kulit)">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Daging Kepala (Ada Kulit)</h3>
+        <p><strong>Harga:</strong> 90K/Kg</p>
+        <p>Daging Kepala cocok untuk sop ataupun soto</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Daging%20Kepala%20(Ada%20Kulit)">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Daging Iga</h3>
+        <p><strong>Harga:</strong> 110K/Kg</p>
+        <p>Daging Iga cocok untuk sate,soto,sop,gulai,cincang atau semur</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Daging%20Iga">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Tulang Iga</h3>
+        <p><strong>Harga:</strong> 110K/Kg</p>
+        <p>Tulang Iga Lokal cocok untuk sop atau iga bakar</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Tulang%20Iga">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Tetelan</h3>
+        <p><strong>Harga:</strong> 80K/Kg</p>
+        <p>Tetelan untuk sop,cincang atau kerecek menu lainnya</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Tetelan">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Otak Sapi</h3>
+        <p><strong>Harga:</strong> 40K</p>
+        <p>Otak Sapi lokal untuk masakan rumahmu.</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Otak%20Sapi">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Babat Sapi</h3>
+        <p><strong>Harga:</strong> 70K/Kg</p>
+        <p>Babat Sapi untuk sop,soto atau masakan rumah lainnya.</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Babat%20Sapi">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Hati Sapi</h3>
+        <p><strong>Harga:</strong> 100K/Kg</p>
+        <p>Hati sapi Masakan rumah</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Hati%20Sapi">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Kaki Sapi</h3>
+        <p><strong>Harga:</strong> 70K/Kg</p>
+        <p>Kaki Sapi cocok untuk sop,gulai atau masakan lainnya</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Kaki%20Sapi">Pesan via WhatsApp</a>
+    </div>
+    
+    <div class="produk-item">
+        <h3>Buntut Sapi (Timbang Utuh)</h3>
+        <p><strong>Harga:</strong> 100K/Kg</p>
+        <p>buntut sapi yang cocok untuk sop,gulai,buntut bakar atau masakan lainnya.</p>
+        <a class="wa-button" href="https://wa.me/6287720446855?text=Halo%2C%20saya%20ingin%20memesan%20Buntut%20Sapi%20(Timbang%20Utuh)">Pesan via WhatsApp</a>
+    </div>
+    
+        </div>
+    </section>
+
+    <section class="galeri">
+        <h2>Galeri Produk</h2>
+        <div class="galeri-grid">
+            <div class="galeri-grid">
+  <img src="galeri1.jpg" alt="Galeri Produk">
+  <img src="galeri2.jpg" alt="Galeri Produk">
+  <img src="galeri3.jpg" alt="Galeri Produk">
+  <img src="galeri4.jpg" alt="Galeri Produk">
+  <img src="galeri5.jpg" alt="Galeri Produk">
+  <img src="galeri6.jpg" alt="Galeri Produk">
+  <img src="galeri7.jpg" alt="Galeri Produk">
+  <img src="galeri8.jpg" alt="Galeri Produk">
+  <img src="galeri9.jpg" alt="Galeri Produk">
+  <img src="galeri10.jpg" alt="Galeri Produk">
+</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>PD BSPN - WA: 087720446855</p>
+        <p>Alamat: Pasar Cipanas Blok Pirmen No.62</p>
+    </footer>
+</body>
+</html>
